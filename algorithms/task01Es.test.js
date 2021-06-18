@@ -29,7 +29,7 @@ describe('Algoritms', () => {
     }
 
     let output = task01Es()
-    // console.info('[32]', { output })
+    // console.info('[32-01]', { output })
     output = true
     const expected = true
     expect(output).toEqual(expected)
