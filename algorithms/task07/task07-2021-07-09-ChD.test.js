@@ -1,18 +1,14 @@
 describe('Algoritms', () => {
   it('test func', () => {
-    function isPrime(a) {
+    const isPrime = a => {
       let j = false
       let i = 2
-      for (i = 2; i * i <= a && j != true; i++) {
+      for (i = 2; i < a && j !== true; i++) {
         if (a % i === 0) {
           j = true
         }
       }
-      if (j === true) {
-        return false
-      } else {
-        return true
-      }
+      return j !== true
     }
 
     const testArr = [
