@@ -13,7 +13,7 @@
     },
     "js/ts.implicitProjectConfig.strictNullChecks": true,
     "python.pythonPath": "C:\\ProgramData\\Anaconda3\\pythonw.exe",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.detectIndentation": false,
     "editor.tabSize": 2,
