@@ -1,6 +1,6 @@
 /*
 Description: to merge two arrays the way the equal numbers placing next to each other
-File name: mergeTwoSortedArray.test.js
+File name: mergeTwoSortedArray.test.js 
 */
 const reCount = (a, b) => {
   if (a > b) return 1
