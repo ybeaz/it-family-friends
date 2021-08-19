@@ -1,6 +1,6 @@
 /*
 Description: to create a function that takes array of objects and sort them by the prop, for example, age
-File name: getArrObjSortedByProp.test.js
+File name: getArrObjSortedByProp.test.js 
 */
 
 const vasya = { name: 'Вася', age: 25 }
