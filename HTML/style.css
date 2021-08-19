@@ -1,0 +1,40 @@
+.main{
+  font-family: -webkit-pictograph;
+}
+.title{
+  background: grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.title_h2{
+  color: white;
+  background: grey;
+  display: flex;
+}
+
+.nav{
+  flex-direction: column;
+  flex: 3;
+  color: black;
+  background: lightgray;
+  display: flex;;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.article{
+  display: flex;
+  flex: 7;
+  flex-direction: column;
+}
+.footer{
+  display: flex;
+  color: white;
+  justify-content: center;
+  background-color: gray;
+  font-size: small;
+}
