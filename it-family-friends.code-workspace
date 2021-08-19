@@ -2,17 +2,13 @@
   "folders": [
     {
       "path": "."
+    },
+    {
+      "path": "../manuals"
     }
   ],
   "settings": {
-    "[json]": {
-      "editor.quickSuggestions": {
-        "strings": true
-      },
-      "editor.suggest.insertMode": "replace"
-    },
     "js/ts.implicitProjectConfig.strictNullChecks": true,
-    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\pythonw.exe",
     "window.zoomLevel": 2,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.detectIndentation": false,
@@ -25,16 +21,8 @@
     "editor.renderWhitespace": "all",
     "files.autoSave": "off",
     "php.validate.run": "onType",
-    "phpcs.executablePath": "C:\\Program Files\\PHP\\vendor\\squizlabs\\php_codesniffer\\bin\\phpcs.bat",
-    "phpcs.composerJsonPath": "C:\\Program Files\\PHP",
-    "phpcs.standard": "Squiz",
-    "importCost.debug": true,
-    "importCost.javascriptExtensions": ["\\.js$", "\\.jsx$"],
-    "importCost.smallPackageSize": 1,
-    "importCost.mediumPackageSize": 10,
-    "npm.enableScriptExplorer": true,
     "npm.scriptExplorerAction": "run",
-    "javascript.implicitProjectConfig.checkJs": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
     "breadcrumbs.enabled": true,
     "search.exclude": {
       "**/.git": true,
@@ -42,26 +30,8 @@
       "**/dist": true,
       "**/public": true
     },
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "eslint.nodePath": "./node_modules/eslint-config-airbnb",
-    "eslint.options": {
-      "configFile": "./.eslintrc.json"
-    },
-    "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      {
-        "language": "html",
-        "autoFix": true
-      }
-    ],
-    "eslint.workingDirectories": ["C:/Data/Dev/Yunazon/200614-desktop"],
-    "javascript.validate.enable": false,
-    "terminal.integrated.rendererType": "dom",
-    "editor.find.autoFindInSelection": true,
+    "editor.find.autoFindInSelection": "always",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false,
     "files.exclude": {
       "**/.classpath": true,
       "**/.factorypath": true,
@@ -69,11 +39,8 @@
       "**/.settings": true,
       "**/node_modules": true
     },
-    "eslint.experimental.incrementalSync": true,
-    "eslint.lintTask.enable": true,
     "apollographql.trace.server": "messages",
-    "eslint.alwaysShowStatus": true,
-    "eslint.packageManager": "yarn",
+    "javascript.validate.enable": true,
     "[html]": {
       "editor.defaultFormatter": "vscode.html-language-features",
       "editor.formatOnSave": true
@@ -82,6 +49,10 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
+      "editor.quickSuggestions": {
+        "strings": true
+      },
+      "editor.suggest.insertMode": "replace",
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescriptreact]": {
@@ -91,18 +62,9 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[python]": {
-      "editor.defaultFormatter": "ms-python.python",
+      "editor.defaultFormatter": "vscode.emmet",
       "editor.formatOnSave": true
     },
-    "python.formatting.provider": "yapf",
-    "python.formatting.yapfPath": "C:\\ProgramData\\envCondaPy379\\Scripts\\yapf.exe",
-    "python.formatting.blackPath": "C:\\ProgramData\\envCondaPy379\\Scripts\\black.exe",
-    "python.linting.lintOnSave": true,
-    "python.linting.enabled": true,
-    "python.linting.pylintPath": "pylint",
-    "python.linting.pylintEnabled": true,
-    "eslint.lintTask.options": "-c C:/Data/Dev/Yunazon/200614-desktop/.eslintrc.json --ignore-path C:/Data/Dev/Yunazon/200614-desktop/.eslintignore ",
-    "python.languageServer": "Pylance",
     "files.associations": {},
     "typescript.locale": "en",
     "javascript.updateImportsOnFileMove.enabled": "never",
@@ -110,11 +72,6 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.largeFileOptimizations": false,
-    "python.autoComplete.extraPaths": [],
-    "python.analysis.extraPaths": [],
-    "jupyter.sendSelectionToInteractiveWindow": true,
-    "jupyter.askForKernelRestart": false,
-    "eslint.format.enable": true,
     "json.schemas": [],
     "terminal.integrated.env.windows": {},
     "git.autofetch": true,
@@ -123,8 +80,6 @@
     "html.format.contentUnformatted": "",
     "workbench.editorAssociations": {},
     "task.slowProviderWarning": false,
-    "vsintellicode.features.python.deepLearning": "enabled",
-    "python.analysis.typeCheckingMode": "basic",
     "editor.fontLigatures": false,
     "typescript.enablePromptUseWorkspaceTsdk": true,
     "javascript.suggest.completeFunctionCalls": true,
