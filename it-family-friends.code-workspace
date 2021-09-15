@@ -9,7 +9,7 @@
   ],
   "settings": {
     "js/ts.implicitProjectConfig.strictNullChecks": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.detectIndentation": false,
     "editor.tabSize": 2,
