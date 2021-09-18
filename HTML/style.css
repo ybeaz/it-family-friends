@@ -12,6 +12,10 @@
   background: grey;
   display: flex;
 }
+.title_h3 {
+  display: flex;
+  justify-content: space-around;
+}
 
 .nav {
   flex-direction: column;
@@ -42,17 +46,49 @@
   background: lightgray;
   color: gray;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
 }
 .towerNames {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex: 1;
+  padding: 1rem;
 }
 .towerString {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  flex: 1;
+}
+.middleCollum {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+}
+.leftCollum {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex: 1;
+  font-weight: 750;
+  font-size: 1em;
+}
+.rightCollum {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+}
+.baseRules {
+  font-family: sans-serif;
+}
+.headerLeft {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
 }
