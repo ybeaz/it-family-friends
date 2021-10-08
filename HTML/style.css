@@ -1,40 +1,154 @@
-.main{
-  font-family: -webkit-pictograph;
+.main {
 }
-.title{
+.title {
   background: grey;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.title_h2{
+.title_h2 {
   color: white;
   background: grey;
   display: flex;
 }
+.title_h3 {
+  display: flex;
+  justify-content: space-around;
+}
 
-.nav{
+.nav {
   flex-direction: column;
   flex: 3;
   color: black;
   background: lightgray;
-  display: flex;;
+  display: flex;
 }
-.section{
+.section {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-.article{
+.article {
   display: flex;
   flex: 7;
   flex-direction: column;
 }
-.footer{
+.footer {
   display: flex;
   color: white;
   justify-content: center;
   background-color: gray;
   font-size: small;
+}
+
+.header {
+  background: lightgray;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  max-height: 5rem;
+}
+.towerNames {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+  padding: 1rem;
+}
+.towerString {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+}
+.middleCollum {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+}
+.leftCollum {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex: 1;
+  font-weight: 750;
+  font-size: 1em;
+  text-decoration: none;
+}
+.rightCollum {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+}
+.baseRules {
+  font-family: sans-serif;
+}
+.headerLeft {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.links {
+  text-decoration: none;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.profile_pict {
+  flex: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.profile_header {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  padding: 1em 0em 1em 0em;
+  font-size: 16px;
+}
+.profile_teg {
+  display: flex;
+  justify-content: left;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 1em 1em 1em 1em;
+}
+.profile_tegs {
+}
+.profile_content {
+  display: flex;
+  justify-content: left;
+  font-size: 12px;
+  padding: 1em 1em 1em 1em;
+}
+.profile_content_collum {
+  flex: 10;
+}
+.profile_tegs_collum {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.hide_collum {
+  flex: 10;
+}
+.heading {
+  display: flex;
+  justify-content: left;
+  font-weight: 600;
+}
+.heading_collum {
+  flex: 10;
 }
